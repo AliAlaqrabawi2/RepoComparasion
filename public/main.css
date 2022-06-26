@@ -1,0 +1,43 @@
+:root{
+    --main-color:hsl(0deg 79% 72%) ; 
+}
+/*
+    popular Style
+*/
+
+li {
+    list-style: none;
+} 
+a {
+    text-decoration: none;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    background-color: inherit; 
+    outline: none; 
+    border: none;
+    cursor: pointer;
+    padding:10px;
+}
+.smallAvatar{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*
+    popular Style
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+}

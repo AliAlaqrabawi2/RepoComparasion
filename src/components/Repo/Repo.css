@@ -1,0 +1,66 @@
+.repo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+    grid-gap:20px; 
+    margin:100px auto;
+    width: 100%;
+    justify-content: center  ;  
+
+
+
+
+
+}
+.repoContainer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+
+    padding: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+.repoContainer .header {
+    justify-content: space-between;
+    margin:10px auto;
+    position: relative; 
+    color:#000;
+} 
+.information{
+    margin: 10px 0 ;
+}
+
+.information .infoItem{
+    justify-content: space-between; 
+    padding:5px 0;
+}
+
+
+.infoItem .infoName{
+    margin-left:5px;
+}
+.control{
+    justify-content: center; 
+    position: relative;
+}
+
+.control .btn { 
+    color: #F32013;
+    opacity: 0.5; 
+    transition: all 0.3s; 
+    font-size:15px; 
+
+}
+.control .btn:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.control::before{
+    content: "";
+    position: absolute;
+    top:-5px;
+    left:0 ;
+    width: 100% ;
+    height: 1px;
+    background-color: #eee;
+
+}

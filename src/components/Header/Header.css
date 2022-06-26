@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0 20px ; 
+}
+
+.logo .repoLogo {
+color:var(--main-color);
+}
+.logo {
+    font-size:21px; 
+}
+
+.searchWrapper{
+    width: 70%;
+    margin-left: 20px;
+}
+.searchBar {
+    display: flex;
+   height: 40px;
+   border: 1px solid #ccc; 
+   position: relative;
+
+}
+.searchBar .searchInput{
+   outline: none;
+   width: 100%;
+   border: none;
+   margin-left:20px; 
+   font-weight: bold;
+
+}
+.searchBar .searchIcon{
+    position: absolute;
+    top:10px;
+    left:4px;
+    font-size:14px;
+}
+.searchWrapper {
+    position: relative;
+}
+
+.test{
+    background-color: red;
+}
+
+@media(max-width:767px) 
+{
+    header{
+        flex-direction: column;
+    } 
+    .logo {
+        margin: 10px 0 ;
+        
+    }
+    .searchWrapper {
+        width:90%;
+    }
+}

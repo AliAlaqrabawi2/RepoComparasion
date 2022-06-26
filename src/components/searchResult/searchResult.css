@@ -1,0 +1,22 @@
+.searchResult{
+    width:100%; 
+    position: absolute;
+    top:100%;
+    border:2px solid #ccc; 
+    z-index:10; 
+    background-color: #eee;
+    
+}
+.repoResult{
+    justify-content: space-between;
+    border-bottom: 1px solid #aaa;
+    cursor: pointer;
+
+}
+.repoResult:hover{
+    background-color: #ccc;;
+}
+ .repoResult .repoName{
+    margin-left: 10px;
+
+}
